@@ -1,0 +1,52 @@
+miestnost terasa terasa - hlavny vstup na fakultu
+vychody
+  vychod: aula
+  juh: VstupDoLabaku labak
+  zapad: bufet
+  vytah: vytah
+predmety
+  ObycajnyPredmet kamen
+  Hodinky
+  Navleky
+  Radio
+
+miestnost aula
+vychody
+  zapad: terasa
+predmety
+  Isic 6
+
+miestnost bufet
+vychody
+  vychod: terasa
+predmety
+  Baterky
+vybavenie
+  Automat
+
+miestnost labak pocitacove laboratorium
+vychody
+  sever: terasa
+  vychod: kancelaria
+predmety
+  ObycajnyPredmet mys
+
+miestnost kancelaria kancelaria spravcu pocitacoveho laboratoria
+vychody
+  zapad: labak
+
+miestnost vytah klasicky vytah na ovladanie
+vychody
+  von: VychodZVytahu atomovyKryt terasa chodba1Poschodie
+vybavenie
+  OvladacVytahu
+
+miestnost atomovyKryt atomovy kryt v pivnici
+vychody
+  vytah: vytah
+
+miestnost chodba1Poschodie chodba na prvom poschodí
+vychody
+  vytah: vytah
+
+start terasa
